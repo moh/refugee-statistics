@@ -1,0 +1,56 @@
+body{
+    padding:20px;
+    margin-bottom: 30px;
+}
+
+table{
+    direction: rtl;
+    float: right;
+    width: 90%;
+    margin-bottom: 20px;
+    }
+td, th{
+    border: solid 1px;
+    padding : 10px;
+    direction: rtl;
+    }
+input{
+    border: solid 0px;
+    background-color: rgb(230,230,230);
+    }
+.tables{
+    display: inline-block;
+    margin: 50px;
+    }
+
+#logo_image{
+    width:200px;
+    height: 200px;
+    float:right;
+}
+
+#submit,button {
+    width:70px;
+    height:40px;
+    float: right;
+    margin-right: 100px;
+}
+
+span{
+    direction: rtl;
+    float: right;
+}
+
+.family_delete:hover,.aides_delete:hover{
+    background-color: gray;
+
+}
+
+.family_delete, .aides_delete{
+    color: red;
+    text-align: center;
+}
+
+input[required]{
+    background-color: rgba(150,0,0,.2);
+}

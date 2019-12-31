@@ -1,0 +1,60 @@
+*{
+    font-family: "Arial";
+}
+body{
+//        display: block;
+}
+
+
+#programs li a{
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(100,100,100,.3);
+}
+
+#programs li a p{
+    margin-top: 40px;
+    padding-right : 20px;
+    font-weight:bold;
+    color : black;
+    display: inline-block;
+}
+#programs li a img{
+    height: 100px;
+    width:100px;
+    float: right;
+    display: inline-block;
+}
+
+#programs li a:hover{
+    background-color: rgba(100,100,100,.1);
+}
+
+
+#programs {
+    float: right;
+    direction: rtl;
+    padding: 30px;
+    clear: both;
+}
+
+#logo_image{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: right;
+}
+h2{
+    padding :20px;
+    margin-right: 30px;
+    background-color: lightgray;
+    width: 90%;
+    float: right;
+    clear: both;
+    text-align: center;
+    border-radius: 40px;
+}
