@@ -15,4 +15,5 @@
 ## Notes
  
  1 - The contant of the website is written in Arabic, as it is written for an NGO located in Lebanon.
+ 
  2 - The username and password of the database are stored in functions_db.php
